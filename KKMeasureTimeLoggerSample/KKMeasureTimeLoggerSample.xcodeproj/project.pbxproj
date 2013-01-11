@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631E1A84169FA08800EAC765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E1A83169FA08800EAC765 /* UIKit.framework */; };
+		631E1A86169FA08800EAC765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E1A85169FA08800EAC765 /* Foundation.framework */; };
+		631E1A88169FA08800EAC765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E1A87169FA08800EAC765 /* CoreGraphics.framework */; };
+		631E1A8E169FA08800EAC765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 631E1A8C169FA08800EAC765 /* InfoPlist.strings */; };
+		631E1A90169FA08800EAC765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E1A8F169FA08800EAC765 /* main.m */; };
+		631E1A94169FA08800EAC765 /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E1A93169FA08800EAC765 /* KKAppDelegate.m */; };
+		631E1A96169FA08800EAC765 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 631E1A95169FA08800EAC765 /* Default.png */; };
+		631E1A98169FA08800EAC765 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631E1A97169FA08800EAC765 /* Default@2x.png */; };
+		631E1A9A169FA08800EAC765 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631E1A99169FA08800EAC765 /* Default-568h@2x.png */; };
+		638321A9169FA10100B8DEF1 /* KKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638321A7169FA10100B8DEF1 /* KKMasterViewController.m */; };
+		638321AA169FA10100B8DEF1 /* KKMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638321A8169FA10100B8DEF1 /* KKMasterViewController.xib */; };
+		638321AE169FA10D00B8DEF1 /* KKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638321AC169FA10D00B8DEF1 /* KKDetailViewController.m */; };
+		638321AF169FA10D00B8DEF1 /* KKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638321AD169FA10D00B8DEF1 /* KKDetailViewController.xib */; };
+		638321B2169FA1AD00B8DEF1 /* KKMeasureTimeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 638321B1169FA1AD00B8DEF1 /* KKMeasureTimeLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631E1A7F169FA08800EAC765 /* KKMeasureTimeLoggerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKMeasureTimeLoggerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E1A83169FA08800EAC765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		631E1A85169FA08800EAC765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		631E1A87169FA08800EAC765 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		631E1A8B169FA08800EAC765 /* KKMeasureTimeLoggerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKMeasureTimeLoggerSample-Info.plist"; sourceTree = "<group>"; };
+		631E1A8D169FA08800EAC765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		631E1A8F169FA08800EAC765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		631E1A91169FA08800EAC765 /* KKMeasureTimeLoggerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKMeasureTimeLoggerSample-Prefix.pch"; sourceTree = "<group>"; };
+		631E1A92169FA08800EAC765 /* KKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
+		631E1A93169FA08800EAC765 /* KKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
+		631E1A95169FA08800EAC765 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		631E1A97169FA08800EAC765 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		631E1A99169FA08800EAC765 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		638321A6169FA10100B8DEF1 /* KKMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMasterViewController.h; sourceTree = "<group>"; };
+		638321A7169FA10100B8DEF1 /* KKMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMasterViewController.m; sourceTree = "<group>"; };
+		638321A8169FA10100B8DEF1 /* KKMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKMasterViewController.xib; sourceTree = "<group>"; };
+		638321AB169FA10D00B8DEF1 /* KKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDetailViewController.h; sourceTree = "<group>"; };
+		638321AC169FA10D00B8DEF1 /* KKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDetailViewController.m; sourceTree = "<group>"; };
+		638321AD169FA10D00B8DEF1 /* KKDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKDetailViewController.xib; sourceTree = "<group>"; };
+		638321B0169FA1AD00B8DEF1 /* KKMeasureTimeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMeasureTimeLogger.h; sourceTree = "<group>"; };
+		638321B1169FA1AD00B8DEF1 /* KKMeasureTimeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMeasureTimeLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631E1A7C169FA08800EAC765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E1A84169FA08800EAC765 /* UIKit.framework in Frameworks */,
+				631E1A86169FA08800EAC765 /* Foundation.framework in Frameworks */,
+				631E1A88169FA08800EAC765 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631E1A74169FA08800EAC765 = {
+			isa = PBXGroup;
+			children = (
+				631E1A89169FA08800EAC765 /* KKMeasureTimeLoggerSample */,
+				631E1A82169FA08800EAC765 /* Frameworks */,
+				631E1A80169FA08800EAC765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631E1A80169FA08800EAC765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631E1A7F169FA08800EAC765 /* KKMeasureTimeLoggerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631E1A82169FA08800EAC765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631E1A83169FA08800EAC765 /* UIKit.framework */,
+				631E1A85169FA08800EAC765 /* Foundation.framework */,
+				631E1A87169FA08800EAC765 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631E1A89169FA08800EAC765 /* KKMeasureTimeLoggerSample */ = {
+			isa = PBXGroup;
+			children = (
+				631E1A92169FA08800EAC765 /* KKAppDelegate.h */,
+				631E1A93169FA08800EAC765 /* KKAppDelegate.m */,
+				638321A6169FA10100B8DEF1 /* KKMasterViewController.h */,
+				638321A7169FA10100B8DEF1 /* KKMasterViewController.m */,
+				638321A8169FA10100B8DEF1 /* KKMasterViewController.xib */,
+				638321AB169FA10D00B8DEF1 /* KKDetailViewController.h */,
+				638321AC169FA10D00B8DEF1 /* KKDetailViewController.m */,
+				638321AD169FA10D00B8DEF1 /* KKDetailViewController.xib */,
+				638321B0169FA1AD00B8DEF1 /* KKMeasureTimeLogger.h */,
+				638321B1169FA1AD00B8DEF1 /* KKMeasureTimeLogger.m */,
+				631E1A8A169FA08800EAC765 /* Supporting Files */,
+			);
+			path = KKMeasureTimeLoggerSample;
+			sourceTree = "<group>";
+		};
+		631E1A8A169FA08800EAC765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				631E1A8B169FA08800EAC765 /* KKMeasureTimeLoggerSample-Info.plist */,
+				631E1A8C169FA08800EAC765 /* InfoPlist.strings */,
+				631E1A8F169FA08800EAC765 /* main.m */,
+				631E1A91169FA08800EAC765 /* KKMeasureTimeLoggerSample-Prefix.pch */,
+				631E1A95169FA08800EAC765 /* Default.png */,
+				631E1A97169FA08800EAC765 /* Default@2x.png */,
+				631E1A99169FA08800EAC765 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631E1A7E169FA08800EAC765 /* KKMeasureTimeLoggerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E1AA9169FA08800EAC765 /* Build configuration list for PBXNativeTarget "KKMeasureTimeLoggerSample" */;
+			buildPhases = (
+				631E1A7B169FA08800EAC765 /* Sources */,
+				631E1A7C169FA08800EAC765 /* Frameworks */,
+				631E1A7D169FA08800EAC765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKMeasureTimeLoggerSample;
+			productName = KKMeasureTimeLoggerSample;
+			productReference = 631E1A7F169FA08800EAC765 /* KKMeasureTimeLoggerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631E1A76169FA08800EAC765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = KinkumaDesign;
+			};
+			buildConfigurationList = 631E1A79169FA08800EAC765 /* Build configuration list for PBXProject "KKMeasureTimeLoggerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 631E1A74169FA08800EAC765;
+			productRefGroup = 631E1A80169FA08800EAC765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631E1A7E169FA08800EAC765 /* KKMeasureTimeLoggerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631E1A7D169FA08800EAC765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E1A8E169FA08800EAC765 /* InfoPlist.strings in Resources */,
+				631E1A96169FA08800EAC765 /* Default.png in Resources */,
+				631E1A98169FA08800EAC765 /* Default@2x.png in Resources */,
+				631E1A9A169FA08800EAC765 /* Default-568h@2x.png in Resources */,
+				638321AA169FA10100B8DEF1 /* KKMasterViewController.xib in Resources */,
+				638321AF169FA10D00B8DEF1 /* KKDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631E1A7B169FA08800EAC765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E1A90169FA08800EAC765 /* main.m in Sources */,
+				631E1A94169FA08800EAC765 /* KKAppDelegate.m in Sources */,
+				638321A9169FA10100B8DEF1 /* KKMasterViewController.m in Sources */,
+				638321AE169FA10D00B8DEF1 /* KKDetailViewController.m in Sources */,
+				638321B2169FA1AD00B8DEF1 /* KKMeasureTimeLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		631E1A8C169FA08800EAC765 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631E1A8D169FA08800EAC765 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631E1AA7169FA08800EAC765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		631E1AA8169FA08800EAC765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631E1AAA169FA08800EAC765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKMeasureTimeLoggerSample/KKMeasureTimeLoggerSample-Prefix.pch";
+				INFOPLIST_FILE = "KKMeasureTimeLoggerSample/KKMeasureTimeLoggerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		631E1AAB169FA08800EAC765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKMeasureTimeLoggerSample/KKMeasureTimeLoggerSample-Prefix.pch";
+				INFOPLIST_FILE = "KKMeasureTimeLoggerSample/KKMeasureTimeLoggerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631E1A79169FA08800EAC765 /* Build configuration list for PBXProject "KKMeasureTimeLoggerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E1AA7169FA08800EAC765 /* Debug */,
+				631E1AA8169FA08800EAC765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E1AA9169FA08800EAC765 /* Build configuration list for PBXNativeTarget "KKMeasureTimeLoggerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E1AAA169FA08800EAC765 /* Debug */,
+				631E1AAB169FA08800EAC765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631E1A76169FA08800EAC765 /* Project object */;
+}
