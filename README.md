@@ -1,4 +1,4 @@
-#Time measurement tool for performance dubugging in iOS
+#Time measurement tool for performance dubugging in Cocoa
 
 ##How to use
 
