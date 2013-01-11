@@ -4,7 +4,7 @@
 
 1st
 
-Import KKMeasureTimeLogger.h and KKMeasureTimeLogger.m files in your project.
+Import KKMeasureTimeLogger.h and KKMeasureTimeLogger.m files into your project.
 
 2nd
 
@@ -34,6 +34,14 @@ From start 0.355751 sec. From last lap 0.354561 sec <= detail view view did appe
 
 That's it.
 
+
+##note
+
+As NSLog method consume not ignore time, you may have to use KKMeasureTimeLogModeAfter mode.
+
+##License
+
+MIT license
 
 
 
